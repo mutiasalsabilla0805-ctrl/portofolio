@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Nama Anda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+    nav {
+      background: white;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2a5298;
+      font-weight: 600;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 30px;
+      align-items: center;
+    }
+    .about img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    h2 {
+      color: #1e3c72;
+      margin-bottom: 20px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Portofolio Pribadi</h1>
+  <p>Mutia Salsabila</p>
+</header>
+
+<nav>
+  <a href="#about">Tentang Saya</a>
+  <a href="#skills">Skill</a>
+  <a href="#projects">Proyek</a>
+  <a href="#contact">Kontak</a>
+</nav>
+
+<section id="about">
+  <h2>Tentang Saya</h2>
+  <div class="about">
+    <img src="d:\Downloads\WhatsApp Image 2025-12-18 at 17.55.03.jpeg" alt="Foto Diri">
+    <p>
+      Saya adalah mahasiswa yang memiliki ketertarikan di bidang musik,khususnya dalam produksi dan pengolahan audio, serta memadukannya dengan desain website sebagai media promosi karya
+      
+
+    </p>
+  </div>
+</section>
+
+<section id="Skill">
+  <h2>Skill</h2>
+  <div class="skills">
+    <div class="card">Desain Konten Musik</div>
+    <div class="card">Instrumen Musik</div>
+    <div class="card">Audio Rditing</div>
+    <div class="card">Music Producting Dasar</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Proyek</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Website Portofolio Musisi</h3>
+      <p>Website personal untuk menampilkan profil musisi, genre musik, galeri foto, dan contoh karya lagu.</p>
+    </div>
+    <div class="card">
+      <h3>Website Event Musik</h3>
+      <p>Website promosi acara musik atau konser mini dengan informasi jadwal dan pengisi acara.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Kontak</h2>
+  <p>Email: slsblamutia.com</p>
+  <p>Instagram: @slsblamutia_</p>
+</section>
+
+<footer>
+  <p>© 2025 | Portofolio Mutia</p>
+</footer>
+
+</body>
+</html>
